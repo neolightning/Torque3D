@@ -104,6 +104,7 @@ class Torque3D
         addLibIncludePath( "opcode" );
         addLibIncludePath( "squish" );
         addLibIncludePath( 'convexDecomp' ); 
+        addLibIncludePath( 'nativeFileDialog/include' ); 
         
         if ( T3D_Generator::$platform != "360" && T3D_Generator::$platform != "ps3" )
         {
